@@ -1,0 +1,178 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Basic Tee",
+      "href": "#",
+      "imageSrc": "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
+      "imageAlt": "Front of men's Basic Tee in black.",
+      "price": 35,
+      "color": "Black",
+      "quantity": 1,
+      "category": "Clothing"
+    },
+    {
+      "id": 2,
+      "name": "Basic Tee",
+      "href": "#",
+      "imageSrc": "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-02.jpg",
+      "imageAlt": "Front of men's Basic Tee in black.",
+      "price": 45,
+      "color": "Black",
+      "quantity": 1,
+      "category": "Clothing"
+    },
+    {
+      "id": 3,
+      "name": "Basic Tee",
+      "href": "#",
+      "imageSrc": "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-03.jpg",
+      "imageAlt": "Front of men's Basic Tee in black.",
+      "price": 40,
+      "color": "Black",
+      "quantity": 1,
+      "category": "Clothing"
+    },
+    {
+      "id": 4,
+      "name": "Basic Tee",
+      "href": "#",
+      "imageSrc": "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-04.jpg",
+      "imageAlt": "Front of men's Basic Tee in black.",
+      "price": 35,
+      "color": "Black",
+      "quantity": 1,
+      "category": "Clothing"
+    },
+    {
+      "id": 5,
+      "name": "More Than Meets the Eye",
+      "href": "#",
+      "imageSrc": "https://cdn.shopify.com/s/files/1/0167/4484/products/mist-heather-black-1_3f3bbfc0-c400-4bad-9299-925fbb94008f_740x918_crop_center.jpg?v=1562763212",
+      "imageAlt": "Front of men's Basic Tee in black.",
+      "price": 35,
+      "color": "Black",
+      "quantity": 1,
+      "category": "Clothing"
+    },
+    {
+      "id": 6,
+      "name": "Simplify",
+      "href": "#",
+      "imageSrc": "https://cdn.shopify.com/s/files/1/0167/4484/products/simplify-gray-2_400x.jpg?v=1624384852",
+      "imageAlt": "Front of men's Basic Tee in black.",
+      "price": 45,
+      "color": "Black",
+      "quantity": 1,
+      "category": "Clothing"
+    },
+    {
+      "id": 7,
+      "name": "Smell the Roses",
+      "href": "#",
+      "imageSrc": "https://cdn.shopify.com/s/files/1/0167/4484/products/roses-bone-2_400x.jpg?v=1624386448",
+      "imageAlt": "Front of men's Basic Tee in black.",
+      "price": 30,
+      "color": "Black",
+      "quantity": 1,
+      "category": "Clothing"
+    },
+    {
+      "id": 8,
+      "name": "Men's Essential Tee",
+      "href": "#",
+      "imageSrc": "https://cdn.shopify.com/s/files/1/0167/4484/products/voyage-1_740x918_crop_center.jpg?v=1574257326",
+      "imageAlt": "Front of men's Basic Tee in black.",
+      "price": 32,
+      "color": "Black",
+      "quantity": 1,
+      "category": "Clothing"
+    },
+    {
+      "id": 1,
+      "name": "Earthen Bottle",
+      "href": "#",
+      "price": 50,
+      "imageSrc": "https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg",
+      "imageAlt": "Tall slender porcelain bottle with natural clay textured body and cork stopper.",
+      "category": "Accessories"
+    },
+    {
+      "id": 2,
+      "name": "Nomad Tumbler",
+      "href": "#",
+      "price": 40,
+      "imageSrc": "https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg",
+      "imageAlt": "Olive drab green insulated bottle with flared screw lid and flat top.",
+      "category": "Accessories"
+    },
+    {
+      "id": 3,
+      "name": "Focus Paper Refill",
+      "href": "#",
+      "price": 90,
+      "imageSrc": "https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg",
+      "imageAlt": "Person using a pen to cross a task off a productivity paper card.",
+      "category": "Accessories"
+    },
+    {
+      "id": 4,
+      "name": "Machined Mechanical Pencil",
+      "href": "#",
+      "price": 35,
+      "imageSrc": "https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg",
+      "imageAlt": "Hand holding black machined steel mechanical pencil with brass tip and top.",
+      "category": "Accessories"
+    },
+    {
+      "id": 1,
+      "name": "Earthen Bottle",
+      "href": "#",
+      "price": 50,
+      "imageSrc": "https://cdn.shopify.com/s/files/1/0167/4484/products/analog-3-pk-1b_740x918_crop_center.jpg?v=1620142564",
+      "imageAlt": "Tall slender porcelain bottle with natural clay textured body and cork stopper.",
+      "category": "Journals"
+    },
+    {
+      "id": 2,
+      "name": "Nomad Tumbler",
+      "href": "#",
+      "price": 35,
+      "imageSrc": "https://cdn.shopify.com/s/files/1/0167/4484/products/analog-complete-set_740x918_crop_center.jpg?v=1633981522",
+      "imageAlt": "Olive drab green insulated bottle with flared screw lid and flat top.",
+      "category": "Journals"
+    },
+    {
+      "id": 3,
+      "name": "HMM Scissors",
+      "href": "#",
+      "price": 89,
+      "imageSrc": "https://cdn.shopify.com/s/files/1/0167/4484/products/HMM-scissors-gold-8_740x918_crop_center.jpg?v=1621529282",
+      "imageAlt": "Person using a pen to cross a task off a productivity paper card.",
+      "category": "Journals"
+    }
+  ],
+  "categories": [
+    {
+      "name": "Accessories",
+      "description": "Work from home accessories",
+      "imageSrc": "https://tailwindui.com/img/ecommerce-images/home-page-02-edition-01.jpg",
+      "imageAlt": "Desk with leather desk pad, walnut desk organizer, wireless keyboard and mouse, and porcelain mug.",
+      "href": "#"
+    },
+    {
+      "name": "Journals",
+      "description": "Journals and note-taking",
+      "imageSrc": "https://tailwindui.com/img/ecommerce-images/home-page-02-edition-02.jpg",
+      "imageAlt": "Wood table with porcelain mug, leather journal, brass pen, leather key ring, and a houseplant.",
+      "href": "#"
+    },
+    {
+      "name": "Clothing",
+      "description": "T-shorts and more",
+      "imageSrc": "https://cdn.shopify.com/s/files/1/0167/4484/products/8-bundle_740x918_crop_center.jpg?v=1574428789",
+      "imageAlt": "Collection of four insulated travel bottles on wooden shelf.",
+      "href": "#"
+    }
+  ]
+}
