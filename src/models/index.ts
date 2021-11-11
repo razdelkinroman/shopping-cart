@@ -19,7 +19,7 @@ export const categoryExample = {
   href: '#',
 };
 
-type WithOptional<T, K extends keyof T> = Omit<T, K> | Partial<Pick<T, K>>;
+type WithOptional<T, K extends keyof T> = Omit<T, K> & Partial<Pick<T, K>>;
 
 export type ProductType = typeof productExample;
 export type IProduct = WithOptional<ProductType, 'color'>;
