@@ -5,6 +5,7 @@ import { ProductItems } from 'components/ProductItems';
 import { CategoryList } from 'components/CategoryList';
 import { Header } from 'components/Header';
 import { shopItemsSelector } from 'store/reducers/shop/shop-selectors';
+import { cartItemsSelector } from 'store/reducers/cart/cart-selectors';
 import { fetchItems } from 'store/reducers/shop/shop-actions-creators';
 import {
   addItemToCartAction,
@@ -20,6 +21,7 @@ interface IMainContainerProps {
 export const MainContainer = ({ setOpenCart }: IMainContainerProps) => {
   const dispatch = useAppDispatch();
   const products = useAppSelector(shopItemsSelector);
+  const cartItems = useAppSelector(cartItemsSelector);
 
   const [activeCategory, setActiveCategory] = useState('');
   const showCategories = !activeCategory;
@@ -40,7 +42,7 @@ export const MainContainer = ({ setOpenCart }: IMainContainerProps) => {
 
   return (
     <Layout>
-      <Header setOpenCart={setOpenCart} />
+      <Header setOpenCart={setOpenCart} itemsCountFromCart={cartItems.length} />
       {showCategories && (
         <CategoryList
           items={categories}

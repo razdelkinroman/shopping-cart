@@ -14,6 +14,7 @@
     "@types/react-dom": "^17.0.0",
     "@types/react-redux": "^7.1.20",
     "axios": "^0.24.0",
+    "concurrently": "^6.4.0",
     "json-server": "^0.17.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
@@ -28,7 +29,8 @@
     "start": "craco start",
     "build": "craco build",
     "test": "jest",
-    "server": "json-server --watch --port 3001 db.json"
+    "server": "json-server --watch --port 3001 db.json",
+    "dev": "concurrently \"npm run server\" \"npm start\""
   },
   "browserslist": {
     "production": [
