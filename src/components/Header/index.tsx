@@ -1,5 +1,5 @@
 import React from 'react';
-import { ShoppingCartIcon } from '@heroicons/react/outline';
+import { ShoppingCartIcon } from '@heroicons/react/24/outline';
 
 interface IHeaderProps {
   setOpenCart: (state: boolean) => void;

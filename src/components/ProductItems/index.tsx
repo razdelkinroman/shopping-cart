@@ -2,7 +2,7 @@ import { useState } from 'react';
 
 import { AddToCartButton } from './AddToCartButton';
 import { Spinner } from '../Spinner';
-import { ArrowNarrowLeftIcon } from '@heroicons/react/outline';
+import { ArrowLongLeftIcon } from '@heroicons/react/24/outline';
 import { IProduct } from '../../models';
 
 interface IProductItemsProps {
@@ -30,7 +30,7 @@ export const ProductItems = (props: IProductItemsProps) => {
           className="flex items-center text-purple-500 background-transparent font-bold uppercase text-sm outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
           onClick={backToCategories}
         >
-          <ArrowNarrowLeftIcon className="w-6 h-6 mr-2" /> back
+          <ArrowLongLeftIcon className="w-6 h-6 mr-2" /> back
         </button>
         <h2 className="text-3xl font-medium mb-10 tracking-tight text-gray-900">Most Popular</h2>
 

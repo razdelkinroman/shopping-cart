@@ -1,7 +1,7 @@
 /* eslint-disable no-constant-condition */
 import { useEffect, useState } from 'react';
 import { IProduct } from '../../models';
-import { PlusSmIcon, MinusSmIcon } from '@heroicons/react/outline';
+import { PlusCircleIcon, MinusCircleIcon } from '@heroicons/react/24/outline';
 
 import { useAppSelector } from '../../hooks/useRedux';
 import { itemInCartSelector } from '../../store/reducers/cart/cart-selectors';
@@ -32,11 +32,11 @@ const QuantityCounter = ({
   return (
     <div className="w-20 h-7 flex justify-between">
       <button>
-        <MinusSmIcon className="w-4 h-5" onClick={() => setCount((prev) => prev - 1)} />
+        <MinusCircleIcon className="w-4 h-5" onClick={() => setCount((prev) => prev - 1)} />
       </button>
       <span>{count}</span>
       <button>
-        <PlusSmIcon className="w-4 h-5" onClick={() => setCount((prev) => prev + 1)} />
+        <PlusCircleIcon className="w-4 h-5" onClick={() => setCount((prev) => prev + 1)} />
       </button>
     </div>
   );
